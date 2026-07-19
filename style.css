@@ -335,6 +335,14 @@ nav {
 }
 .link-btn.accent:hover { background: var(--accent-hover); }
 
+/* SCROLL ANCHORS — evita que el nav fijo tape las secciones al hacer scroll */
+.about-wrap,
+.styled-section,
+.projects-wrap,
+.contact-wrap {
+  scroll-margin-top: 80px;
+}
+
 /* BADGES AND BRAND SKILLS (por si se usan en el futuro) */
 .skills-wrapper { border-bottom: 1px solid var(--border); border-left: 3px solid var(--accent); }
 .skills-inner { max-width: 1200px; margin: 0 auto; padding: 4rem 3rem; }
